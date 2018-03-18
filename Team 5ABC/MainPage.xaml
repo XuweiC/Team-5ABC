@@ -9,5 +9,6 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock FontSize="48">Hello World!</TextBlock>
+      <Button Name="Test" Content="Click Me"></Button>>
     </Grid>
 </Page>
