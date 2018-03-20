@@ -8,7 +8,24 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock FontSize="48">Hello World!</TextBlock>
-      <Button Name="Test" Content="Click Me"></Button>>
+        <StackPanel Orientation="Vertical" 
+                    Height="Auto"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top">
+            <TextBlock FontSize="48">Lorem Ipsum</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock TextWrapping="Wrap" Width="120">可视化来来来啦啦啦啦</TextBlock>
+                <TextBlock TextWrapping="Wrap" Width="120">可视化来来来啦啦啦啦</TextBlock>
+            </StackPanel>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Top"
+                    HorizontalAlignment="Right">
+            <Rectangle Fill="Purple" 
+                           Width="50" 
+                           Height="50"></Rectangle>
+        </StackPanel>
+
     </Grid>
 </Page>
